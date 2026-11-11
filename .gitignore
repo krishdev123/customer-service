@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# VS Code local settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
